@@ -1,0 +1,2 @@
+Welcome to the REPL for "L-Schemer", if you have any questions please enter
+the "HELP" command.

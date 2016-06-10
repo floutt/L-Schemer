@@ -1,0 +1,3 @@
+IMPORT JSON examples/json/koch.json koch
+IMPORT RULESET examples/rulesets/koch.ruleset koch
+RENDER koch 0.01 6

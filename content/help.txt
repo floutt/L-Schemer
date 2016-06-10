@@ -1,0 +1,30 @@
+IMPORT {import_type} {filename} optional:{importname} - imports metadata from
+a file (either a JSON or "ruleset" file) into a usable format in memory.
+        - {import_type} - can either be "JSON" or "RULESET"
+        - {filename} - name of the file
+        - {importname} - name used when referencing data for rendering
+Note: In order to use data rendering, both a JSON and a ruleset file need to
+      have been imported.
+
+RENDER {importname} {scale_num} {iter_num} - renders data onto the turtle
+graphics screen
+        - {scale_num} is the value which all of the forward and backwards
+          turtle movements will be multiplied by. Useful when adjusting size
+          of an L-system rendering.
+        - {iter_num} - number of iterations done
+
+CLEAR - clears turtle window screen
+
+LEFT optional:{number} - moves the turtle to the left at a certain angle (measured in
+degrees), defaults to 90 degrees when no input is given
+
+RIGHT optional:{number} - moves the turtle to the right at a certain angle (measured in
+degrees), defaults to 90 degrees when no input is given
+
+FORWARD {number} - moves the turtle a certain number of units forward
+
+BACKWARD {number} - moves the turtle a certain number of units backwards
+
+PEN-UP - does not render turtle movements unless "PEN-DOWN" command is given
+
+PEN-UP - renders turtle movements unless "PEN-UP" command is given

@@ -1,0 +1,6 @@
+{
+        "variables":["F"],
+        "constants":["+", "-"],
+        "axiom":"F",
+        "rules":{"F":"F+F-F-F+F"}
+}

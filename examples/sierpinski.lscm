@@ -1,0 +1,6 @@
+IMPORT JSON examples/json/striangle.json sierpinski
+IMPORT RULESET examples/rulesets/striangle.ruleset sierpinski
+PEN-UP
+BACKWARD 10
+PEN-DOWN
+RENDER sierpinski 0.1 8

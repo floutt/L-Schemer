@@ -1,0 +1,4 @@
+("A" . (forward 1))
+("B" . (forward 1))
+("+" . (left 60))
+("-" . (right 60))
