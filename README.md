@@ -38,3 +38,10 @@ Ruleset files of Scheme-style alists, with keys being the variables and constant
 ("+" . (left 90))              
 ("-" . (right 90))
 ```
+
+## Images
+![](https://raw.githubusercontent.com/floutt/L-Schemer/master/images/sierpinski.png)
+*Sierpinski/s triangle rendered in L-Schemer*
+
+![](https://raw.githubusercontent.com/floutt/L-Schemer/master/images/koch-curve.png)
+*Koch curve partially rendered in L-Schemer*
