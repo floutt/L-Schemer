@@ -42,7 +42,7 @@ Ruleset files of Scheme-style alists, with keys being the variables and constant
 ## Images
 ![](https://raw.githubusercontent.com/floutt/L-Schemer/master/images/sierpinski.png)
 
-*Sierpinski/s triangle rendered in L-Schemer*
+*Sierpinski triangle rendered in L-Schemer*
 
 ![](https://raw.githubusercontent.com/floutt/L-Schemer/master/images/koch-curve.png)
 
